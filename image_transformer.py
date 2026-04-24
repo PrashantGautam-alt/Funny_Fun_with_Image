@@ -5,7 +5,7 @@ import os
 
 # Load image
 dir = os.path.dirname(os.path.abspath(__file__))
-image_path = os.path.join(dir, "IMG_2031.jpeg")
+image_path = os.path.join(dir, "shrek5.jpg")
 
 # Image -> np array
 img = Image.open(image_path).convert("RGB")
